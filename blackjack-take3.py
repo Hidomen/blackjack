@@ -119,7 +119,6 @@ def gui(data):
         print(f'DEALER HAS: 1')
     else:
         print(f'DEALER HAS: {data["dealer"]["hand"][0]}')
-    print(data["dealer"]["hand"], total_calc(data["dealer"]["hand"])) # for bug-fixes
     print("***************")
      
     
